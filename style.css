@@ -1,0 +1,124 @@
+/*
+	Theme name: WP News
+	Author: Mher Margaryan
+	Author URI: iodevllc.com
+	Description: Wordpress News Theme
+	Version: 1.0.0 beta
+*/
+
+.featured-post-thumbnail img, .popular-image-wrapper img, .business-post-image-wrapper img, .single-post-thumbnail-wrapper img
+{
+	width: 100%;
+	height: auto;
+}
+
+.ink-navigation ul.pagination.chevron li.previous a:after, .ink-navigation ul.pagination.chevron li.next a:after
+{
+	font-size: 16px;
+}
+
+.ink-navigation ul.pagination.chevron li.previous a, .ink-navigation ul.pagination.chevron li.next a
+{
+	top: 20%;
+}
+
+.meta
+{
+	background: #333;
+	color: #fff;
+	padding: 5px;
+	border-bottom: 3px solid #666;
+}
+
+.sidebar
+{
+	padding-left: 25px;
+}
+
+.sidebar li
+{
+	list-style: none;
+	line-height: 2.2em;
+	border-bottom: 1px dotted #ccc;
+}
+
+.side-widet
+{
+	margin-bottom: 25px;
+}
+
+
+/* Comments */
+.comments
+{
+	border: 1px #ccc solid;
+	padding: 10px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.comments h3, .comments h2
+{
+	background: #f4f4f4;
+	color: #333;
+	padding: 5px
+}
+
+.comment-body
+{
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	padding: 20px 10px;
+}
+
+.comment-meta
+{
+	background: #333;
+	color: #fff;
+	padding: 10px;
+	overflow: auto;
+}
+
+.comment-meta img
+{
+	float: left;
+	margin-right: 10px;
+}
+
+.comment-meta time
+{
+	margin-left: 12px;
+}
+
+.comment-reply-link
+{
+	background: #333;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 15px;
+}
+
+.comment-form input, .comment-form textarea
+{
+	width: 100%;
+	padding: 3px;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+
+.comment-form input[type="submit"]
+{
+	background-color: lightblue;
+	padding: 5px;
+    font-size: 20px;
+}
+
+#wpadminbar
+{
+	display: none !important;
+}
+
+.current_page_item, .current-cat
+{
+	font-weight: bold;
+}
